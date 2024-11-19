@@ -75,7 +75,7 @@ public class CarSys {
         carManager.displayCars();
 
         double averagePrice = carManager.calculateAveragePrice();
-        System.out.printf("Average price of the cars: %.2f\n", averagePrice);
+        System.out.printf("Average price of the cars:RM %.2f\n", averagePrice);
 
         scanner.close();
     }
