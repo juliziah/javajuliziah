@@ -6,7 +6,7 @@ public class matrixCar {
         matrix[1][0] = "X70"; matrix[1][1] = "Myvi"; matrix[1][2] = "Produa"; 
         matrix[2][0] = "Ativa"; matrix[2][1] = "Hilux"; matrix[2][2] = "Vigo";
 
-        int [][] matrix2 = {
+        double[][] matrix2 = {
             {25000, 30000, 40000},
             {70000, 35000, 25000},
             {90000, 80000, 85000}
