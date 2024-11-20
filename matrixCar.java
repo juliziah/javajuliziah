@@ -11,11 +11,13 @@ public class matrixCar {
             {70000, 35000, 25000},
             {90000, 80000, 85000}
         };
-       
+        System.out.println("=====================================");
+        System.out.println("List of cars valued above RM50,000");
+        System.out.println("=====================================");
         for (int row=0; row<matrix.length; row++) {
             for (int col=0; col<matrix[row].length; col++) {
             if (matrix2[row][col] > 50000){
-            System.out.println(matrix[row][col] +"," + matrix2[row][col]);
+            System.out.println(matrix[row][col] +" , RM " + matrix2[row][col]);
             }
         
             }
